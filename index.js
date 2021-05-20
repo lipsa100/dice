@@ -39,7 +39,7 @@ switch(Randomnumber1){
 
 if(winner.includes(player22)){
   var Randomnumber2=6;
-  document.querySelectorAll("img1")[1].setAttribute("src","https://miro.medium.com/max/320/1*15_KIo9vPHULoA98NYT9jQ.png");
+  document.querySelectorAll("img")[1].setAttribute("src","https://miro.medium.com/max/320/1*15_KIo9vPHULoA98NYT9jQ.png");
 }
 else{
 
