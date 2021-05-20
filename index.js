@@ -6,7 +6,7 @@ document.querySelectorAll("p")[0].innerHTML=player11;
 document.querySelectorAll("p")[1].innerHTML=player22;
 if(winner.includes(player11)){
   Randomnumber1=6;
-  document.querySelector("img1")[0].setAttribute("src","https://miro.medium.com/max/320/1*15_KIo9vPHULoA98NYT9jQ.png");
+  document.querySelectorAll("img1")[0].setAttribute("src","https://miro.medium.com/max/320/1*15_KIo9vPHULoA98NYT9jQ.png");
 }
 else{
 
@@ -39,7 +39,7 @@ switch(Randomnumber1){
 
 if(winner.includes(player22)){
   Randomnumber2=6;
-  document.querySelector("img2")[0].setAttribute("src","https://miro.medium.com/max/320/1*15_KIo9vPHULoA98NYT9jQ.png");
+  document.querySelectorAll("img2")[0].setAttribute("src","https://miro.medium.com/max/320/1*15_KIo9vPHULoA98NYT9jQ.png");
 }
 else{
 
